@@ -1,0 +1,16 @@
+{
+  "name": "plumbing-calculator-backend",
+  "version": "1.0.0",
+  "description": "Plumbing Contractor Calculator - Backend API (Excel-based data store)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0"
+  }
+}

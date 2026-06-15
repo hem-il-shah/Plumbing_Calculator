@@ -1,0 +1,15 @@
+{
+  "name": "sintex-plumbing-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sintex Plumbing Contractor Calculator — Express backend + React (Vite) frontend, combined into a single deployable web service.",
+  "scripts": {
+    "build": "npm install --prefix frontend --include=dev && npm run build --prefix frontend && npm install --prefix backend",
+    "start": "node backend/server.js",
+    "dev:backend": "node backend/server.js",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
